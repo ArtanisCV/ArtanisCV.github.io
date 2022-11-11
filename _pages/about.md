@@ -1,50 +1,32 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Brief Introduction / 简介"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Shifei Lin is currently the Research & Development Director at Tencent Ads. He is responsible for optimizing the monetization efficiency of Tencent social platforms (e.g., QQ and QZone), traffic platforms (e.g., Tencent's app store and browsers), as well as content platforms (e.g., Tencent Music and live broadcasts).
 
-A data-driven personal website
+林世飞是腾讯广告的研发总监，负责腾讯社交平台（QQ、QQ空间等）、流量平台（应用宝、浏览器等）和内容平台（腾讯音乐、直播等）的流量变现效率优化。
+
+Professional Experiences / 专业经历
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Joined Tencent in July 2005, Shifei Lin has worked in various departments for application research, software development and team management.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+林世飞于 2005 年 07 月加入腾讯，入职后在多个部门从事应用研究、软件开发和团队管理工作。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+As the first tech lead in charge of Tencent Ads, Shifei established the online strategy and algorithm system for advertising, supporting the long-term and orderly business development of Tencent Ads. Especially, he developed the ad ranking module, which is the most important part of Tencent Ads and has been evolved for three generations until now. His works provide a solid theoretical basis and practical guarantee for the growth of Tencent's revenue. He also led the team to build a wide range of auxiliary modules, including recommendation quality diagnosis, competitive product analysis, audience selection, etc., which automatically located and solved the pain points and difficulties in the process of monetization.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+作为腾讯广告最早的算法负责人，林世飞建立了腾讯广告的在线策略与算法体系，成功支持了腾讯广告业务长期有序的发展，特别是最核心的广告排序模块，先后迭代三代，为腾讯的营收增长提供了扎实的理论基础和系统保障。林世飞还带领团队搭建了推荐效果诊断、竞品分析、用户人群包优选等辅助模块，自动定位并解决流量变现过程中的痛点和难点。
 
-**Markdown generator**
+Shifei has extensive experience in the design and application of big data and artificial intelligence systems. As one of the leaders of Tencent Ads' AI technology, he applied extensive innovative AI solutions to advertising. He built automatic ad quality evaluation, and automatic ad image / video / soundtrack generation modules, etc., based on computer vision, natural language processing and machine learning technologies, which significantly improved the efficiency and effectiveness of ad recommendation while greatly increased Tencent's revenue. Besides, he has actively promoted the communication between Tencent's industrial advertising technology and academia, initiated the Tencent Advertising Algorithm Competition with national influence, which has been held for five times so far. He was awarded the Shenzhen Industrial Development and Innovation Talent Award in 2019, in the recognition of his contribution to the field of online advertising in China.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+林世飞在大数据和人工智能系统的设计与应用上有丰富经验。作为腾讯广告AI领军人之一，他将AI技术大规模创新应用于腾讯广告，先后建设了基于计算机视觉、自然语言处理和机器学习等技术的自动化广告审核、广告图片生成、广告视频生成、广告配乐生成等模块，显著提升了广告推荐的效率和效果，大幅提升了腾讯广告的收入。与此同时，他积极推动腾讯广告技术与学术界的交流，发起并推广了具有全国影响力的腾讯广告算法大赛，至今举办五届比赛。2019 年，林世飞获得了深圳市产业发展与创新人才奖，该奖表彰了他在中国在线广告领域的贡献。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Shifei also has rich experience in team management, who supervises a team of thousands of researchers, engineers and product managers. He attaches great importance to talent echelon construction and has cultivated a number of technical talents. He is also a lecturer at Tencent College, where he shares various management skills and experiences.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+林世飞在团队管理方面也有丰富经验。他管理了上千人的团队，包括研究员、工程师、产品经理等。林世飞善于挖掘人才，重视梯队建设，培养了多名能够独挡一面的技术骨干。他也是腾讯学院的讲师，为内部年轻管理干部分享管理技巧和经验。
