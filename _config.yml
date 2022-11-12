@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shifei Lin"
+title                    : "Shifei Lin / 林世飞"
 title_separator          : "-"
-name                     : &name "Shifei Lin"
+name                     : &name "Shifei Lin / 林世飞"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "林世飞 / Shifei Lin"
-  avatar           : "profile.png"
+  name             : "Shifei Lin / 林世飞"
+  avatar           : "applelin.jpg"
   bio              : "Research & Development Director at Tencent Ads"
   location         : "Shenzhen, China"
   employer         :

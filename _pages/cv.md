@@ -9,51 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Professional Experiences
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+Research and Development Director at Tencent ads.
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+I am leading a team of AI technology, playing diverse and important roles as scientists, engineers, and project managers in different directions and projects. We developed a range of computer vision (CV), natural language processing (NLP), and machine learning (ML) solutions, covering the full process of monetization of social, traffic, and content platforms in Tencent, including ad production, evaluation, ecosystem, and distribution. They have supported advertising in more than 30 products such as QQ, QZone, Tencent's App Store, Tencent Music, and Tencent Games, covering nearly all product lines.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Especially, my works center around ad ranking and its applications, including prediction models, feature engineering, ad quality evaluation, and product growth, with 50+ launches.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Prediction Models
+I incubated the full ML stack for ad ranking, such as click and conversion rate prediction models. Some of my works include:
+* Model architecture tuning and optimization.
+* Model cold-start improvements.
+* Conversion delay handling.
+* Conversion value modeling.
+* Deep conversion optimization.
+
+## Feature Engineering
+I helped to identify and extract features from multiple aspects to optimize ad recommendation. Some of my works include:
+* Ad image / video understanding, powered by CV technologies such as object recognition, saliency detection, OCR, etc.
+* Ad text refinement, powered by NLP technologies such as Chinese word segmentation, named entity recognition, etc.
+* Recommendation quality, such as ad real-timeliness, freshness, relevance, content diversity, etc.
+* User engagement signals, such as good click signal, negative feedback signal, etc.
+
+## Ad Quality Evaluation
+I developed CV solutions to evaluate the quality of Tencent ads, which is responsible for re-ranking ads for better user experience and long-term revenue lift. Some of my works include:
+* Ad aesthetic assessment.
+* Ad plagiarism identification.
+* Sexual Content detection.
+* Violence rating.
+
+## Product growth
+I was responsible for building up a series of auxiliary tools to optimize the monetization efficiency of multiple Tencent products and grow them to billions businesses. Some of my works include:
+* Recommendation quality diagnosis.
+* Traffic anomaly detection.
+* Competitive product analysis.
+* Ad audience selection.
+* Business intelligence analyst.
