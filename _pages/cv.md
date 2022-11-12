@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Professional Experiences"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Professional Experiences
-======
 Research and Development Director at Tencent ads.
 
 I am leading a team of AI technology, playing diverse and important roles as scientists, engineers, and project managers in different directions and projects. We developed a range of computer vision (CV), natural language processing (NLP), and machine learning (ML) solutions, covering the full process of monetization of social, traffic, and content platforms in Tencent, including ad production, evaluation, ecosystem, and distribution. They have supported advertising in more than 30 products such as QQ, QZone, Tencent's App Store, Tencent Music, and Tencent Games, covering nearly all product lines.
