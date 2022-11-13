@@ -40,8 +40,10 @@ I developed CV solutions to evaluate the quality of Tencent ads, which is respon
 
 ## Product Growth
 I was responsible for building up a series of auxiliary tools to optimize the monetization efficiency of multiple Tencent products and grow them to billions businesses. Some of my works include:
+* Ad image / video / soundtrack generations, based on CV and ML solutions.
+* Ad retargeting, based on CV solutions.
+* Ad audience selection, based on ML solutions.
 * Recommendation quality diagnosis.
 * Traffic anomaly detection.
 * Competitive product analysis.
-* Ad audience selection.
 * Business intelligence analysis.
